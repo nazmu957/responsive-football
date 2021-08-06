@@ -64,7 +64,7 @@ body{
     width: 80%;
     height: 80%;
     position: relative;
-    padding-top: 0%;
+    padding-top: 80px;
    
 }
 .right-content img:hover{
@@ -214,6 +214,83 @@ body{
 }
 
 /* Mobile Sevices */
-@media only screen and (max-width:688){
-    
+@media only screen and (max-width:688px) {
+       .top-bar {
+        width: 403px;
+        height: 677px;
+        background-color: #2D25A0;
+    }
+    .left-content {
+        float: left;
+        width: 300px;
+        height: 270px;
+        background-color: #2D25A0;
+        margin-top: 0px;
+        margin-left: 100px;
+    }
+    .left-content h1 {
+        font-size: 31px;
+        line-height: 80px;
+        color: #FFFFFF;
+    }
+    .right-content {
+        float: right;
+        width: 73%;
+        height: 333px;
+    }
+    .right-content img {
+        width: 72%;
+        height: 86%;
+        position: relative;
+        padding-top: 29%;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: #FFFFFF;
+        grid-row-gap: 50px;
+        margin-left: 8%;
+        margin-top: 5%;
+        align-content: space-evenly;
+    }
+    .news-item {
+        display: grid;
+        grid-row-gap: 50px;
+        grid-column-gap: 0px;
+        grid-template-columns: auto;
+        margin-left: 6%;
+       
+        margin-top: 5%;
+    }
+
+.news {
+    background-color: #FFFFFF;
+    height: 220px;
+    width: 354px;
+    box-shadow: 5px 5px 20px rgb(117 114 114);
+}
+.chaimpion img {
+    width: 86%;
+    margin-left: 33px;
+    height: 62%;
+}
+.ending img {
+    width: 244px;
+    height: 75px;
+    margin-left: 329px;
+    margin-top: 76px;
+}
+.ending .logo i {
+    width: 32px;
+    height: 32px;
+    margin-left: 602%;
+    color: grey;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ending .privacy {
+    text-align: center;
+    margin-left: 389px;
+}
 }
